@@ -7,7 +7,7 @@ def getValuesInImg(img_fpath_ : str) -> Set[Union[int, List[int]]]:
     Get the set of values present in the given image.
 
     Args:
-        img_fpath_ (str): Path to the image file.
+        img_fpath_: Path to the image file.
 
     Returns:
         The set of values found in the image.
